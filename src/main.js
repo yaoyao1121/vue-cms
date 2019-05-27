@@ -28,9 +28,6 @@ router.beforeEach((to, from, next) => {
 //axios 默认设置
 axios.defaults.timeout = 10000;
 // axios.defaults.baseURL = '/home/';  //本地
-// axios.defaults.baseURL = 'http://192.168.1.112:30001/trender-interface';  //本地
-axios.defaults.baseURL = 'http://47.111.87.108:30001/trender-interface';  //测试
-// axios.defaults.baseURL = 'http://101.37.66.204:30001/trender-interface';  //生产
 
 
 
